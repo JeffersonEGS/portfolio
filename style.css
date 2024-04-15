@@ -1,0 +1,339 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: #0077b5;
+    color: #fff;
+    padding: 10px 20px;
+}
+header img {
+    margin-top: 5px;
+    border-radius: 50%;
+    margin-left: 60px;
+    width: 90px;
+    height: 90px;
+}
+#menu {
+    display: flex;
+}
+#materia, #perfil, #meus-projetos {
+    scroll-behavior: smooth;
+}
+
+header h1 {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+nav ul {
+    font-size: 24px;
+    list-style-type: none;
+    margin-left: 400px;
+    padding: 13px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+}
+#materia {
+    background-color: #000;
+}
+#sobre-materia {
+    margin-left: 100px;
+    color: #FFF;
+}
+#sobre-materia h3,
+#sobre-materia h1,
+#sobre-materia p {
+    text-align: center;
+}
+#sobre-materia a {
+    text-decoration: none;
+    color: #FFF;
+}
+#perfil {
+    background-color: #0077b5;
+}
+.imagem {
+    display: flex;
+    width: 1850px;
+    height: 1000px;
+    overflow: auto;
+    background-image: url(./imagem/jefferson2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.imagem img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 110px;
+    padding: 10px;
+}
+.imagem h2 {
+    margin-left: 40px;
+    color: #FFF;
+}
+.imagem span {
+    margin-left: 57px;
+    font-size: 13px;
+    color: #FFF;
+}
+.perfil-direito {
+    margin-left: 800px;
+    color: #FFF;
+}
+.perfil-direito p {
+    font-size: 13px;
+    margin-left: 20px;
+}
+.perfil-direito a {
+    color: #0077b5;
+}
+.perfil-direito h4 {
+    margin-left: 20px;
+}
+.perfil-direito h5 {
+    margin-left: 20px;
+}
+.perfil-direito h6 {
+    margin-left: 20px;
+}
+.perfil-direito span1{
+    font-size: 15px;
+    margin-left: 20px;
+    color: #DDD;
+}
+.redes-sociais {
+    display: flex;
+}
+#redes {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.habilidades {
+    margin-top: 10px;
+    margin-left: 0;
+    display: block;
+}
+
+#contato {
+    display: block;
+}
+#meus-projetos {
+    background-color: #000;
+}
+.trabalho {
+    margin-left: 100px;
+    color: #FFF;
+    display: flex;
+}
+.trabalho img {
+    width: 100px;
+    height: 100px;
+}
+.trabalho h1{
+    margin-left: 10px;
+}
+.descricao {
+    margin-bottom: 100px;
+}
+.descricao span {
+    color: #FFF;
+    padding-top: 30px;
+    margin-left: 140px;
+    font-size: 14px;
+}
+.descricao a {
+    font-size: 20px;
+    margin-left: 80px;
+    text-decoration: none;
+    color: #0077b5;
+}
+
+
+
+
+footer {
+    background-color: #0077b5;
+    padding: 10px;
+}
+
+.nav-footer {
+    display: flex;
+}
+
+.navegacao {
+    margin-left: 400px;
+    display: inline-block;
+    padding: 40px;
+}
+.navegacao h3 {
+    color: #FFF;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.navegacao a{
+    padding: 5px;
+    text-decoration: none;
+    color: #FFF;
+}
+.navegacao img {
+    margin-top: 20px;
+    cursor: pointer;
+    height: 19px;
+    margin-left: 10px;
+}
+
+.portfolio {
+    margin-left: 240px;
+    padding: 40px;
+}
+.portfolio h3 {
+    color: #FFF;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.portfolio a {
+    padding: 5px;
+    text-decoration: none;
+    color: #FFF;
+}
+.contato {
+    margin-left: 250px;
+    padding: 40px;
+}
+.contato h3 {
+    color: #FFF;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.contato a {
+    text-decoration: none;
+    color: #FFF;
+}
+.endereco {
+    color: #FFF;
+    margin-left: 425px;
+    padding: 20px;
+}
+.endereco p {
+    font-style: italic;
+    font-size: 17px;
+}
+.endereco span {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.endereco img {
+    height: 15px;
+    margin-top: 20px;
+}
+.privacidade{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.privacidade a{
+    padding: 10px;
+    color: #CCC;
+}
+
+.feito {
+    text-align: center;
+    color: #FFF;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    header img {
+        width: 40px;
+        height: 40px;
+    }
+
+    nav ul {
+        font-size: 16px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    .imagem img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .perfil-direito {
+        padding: 10px;
+    }
+
+    .redes-sociais a {
+        margin-right: 5px;
+    }
+
+    .trabalho img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header img {
+        width: 30px;
+        height: 30px;
+    }
+
+    nav ul {
+        font-size: 14px;
+    }
+
+    .trabalho img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .nav-footer > div {
+        margin: 0 10px;
+    }
+
+    .nav-footer h3 {
+        font-size: 18px;
+    }
+
+    .nav-footer a {
+        font-size: 14px;
+    }
+
+    .endereco img {
+        width: 15px;
+    }
+}

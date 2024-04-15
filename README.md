@@ -1,2 +1,2 @@
 Portfolio
-http://jeffersonegs.github.io/portfolio./
+http://jeffersonegs.github.io/portfolio/
